@@ -1,0 +1,42 @@
+@font-face{ 
+  font-family: 'BravoRG';
+  src: url('../fonts/BravoRegular/BravoRegular.eot');
+  src: url('../fonts/BravoRegular/BravoRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/BravoRegular/BravoRegular.woff') format('woff'),
+    url('../fonts/BravoRegular/BravoRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style:normal;
+}
+@font-face{ 
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Regular.ttf');
+  font-weight: 400;
+  font-style:normal;
+}
+@font-face{ 
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Bold.ttf');
+  font-weight: 700;
+  font-style:normal;
+}
+@font-face{ 
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-SemiBold.ttf');
+  font-weight: 600;
+  font-style:normal;
+}
+@font-face{ 
+  font-family: 'Open Sans';
+  src: url('../fonts/OpenSans/OpenSans-Light.ttf');
+  font-weight: 300;
+  font-style:normal;
+}
+@font-face{ 
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto/RobotoRegular.eot');
+    src: url('../fonts/Roboto/RobotoRegular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Roboto/RobotoRegular.woff') format('woff'),
+    url('../fonts/Roboto/RobotoRegular.ttf') format('truetype');
+  font-weight: 400;
+  font-style:normal;
+}
