@@ -33,5 +33,5 @@ $(document).ready(function(){
             left: offset_left(prize_area.width()+130, prize_area )
         });
       
-        
+       $(".header__menu").slicknav();
 });
