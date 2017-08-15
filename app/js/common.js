@@ -23,14 +23,6 @@ $(document).ready(function(){
                 top:offset_top(-102, prize_area ),
                 left: offset_left(prize_area.width()+130, prize_area )
             });
-             $(".prize_bg__img.right").offset({
-                top:offset_top(0, prize_area ),
-                left: offset_left(600, prize_area )
-            });
-            (".news_bg__img.right").offset({
-                top:offset_top(0, news_area),
-                left: offset_left(news_area.width(), prize_area )
-            });
         });
         $(".two_section__img").offset({ 
             top: offset_top(50, area),
@@ -40,14 +32,6 @@ $(document).ready(function(){
             top:offset_top(-102, prize_area ),
             left: offset_left(prize_area.width()+130, prize_area )
         });
-       $(".prize_bg__img.right").offset({
-            top:offset_top(0, prize_area ),
-            left: offset_left(600, prize_area )
-        });
-    
-        (".news_bg__img.right").offset({
-            top:offset_top(0, news_area),
-            left: offset_left(news_area.width(), prize_area )
-        });
+      
         
 });

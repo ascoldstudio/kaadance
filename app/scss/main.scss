@@ -69,6 +69,7 @@ body{
     width: 250px;
     box-sizing: border-box;
     display:inline-block;
+    z-index: 1000;
 }
 .button_w{
     border: 1px solid #ffffff;
@@ -408,20 +409,23 @@ body{
      position: relative;
     padding: 20px 0;
     width: 100%;
+    z-index: 1;
     .rally_bg__img{
         position: absolute;
         top:13px;
-        left:0;
-        z-index: 999;
+        left:-300px;
+        z-index: -1;
         &.right{
             left: auto;
-            right: -50px;
+            right: -300px;
+            z-index: 1;
         }
     }
     .rally_container{
         padding: 97px 0 20px;
          background: rgba(237, 89, 0, 0.89);
          position: relative;
+        z-index: 1;
     }
 }
 .rally__title{
@@ -529,7 +533,7 @@ body{
         position: absolute;
         top:38px;
         right:0;
-        z-index: 999;
+        z-index: -1;
 }
 }
 .how_container{
@@ -537,6 +541,7 @@ body{
          background: rgba(237, 89, 0, 0.89) url("../img/dancer_left3.png") no-repeat 0  86px;
          background-size: contain;
          position: relative;
+    z-index: 1;
 }
 .how_title{
     text-align: center;
@@ -804,16 +809,20 @@ color: #ffffff;
     font-family: "Open Sans";
     font-weight: 400;
     font-size: 18px;
+    margin-top: 10px;
 }
 //FORMS END
 .section_must_know{
     position: relative;
     background-color: #ed5900;
+    z-index: 1;
     .must_know_bg__img{
         position: absolute;
+        z-index: -1;
         &.left{
             top:50px;
             left:0;
+            
         }
         &.right{
             top:0;
@@ -890,14 +899,22 @@ color: #ffffff;
 }
 .prize_bg__img{
     position: absolute;
+    z-index: -1;
+    &.left{
+        left: -100px;
+    }
+    &.right{
+        right: -177px;
+    }
 }
 .prize_container{
     background-color: rgba(237, 89, 0, 0.89);
     padding: 54px 0 117px;
+    position: relative;
+    z-index: 1;
 }
 .prize__title{
     text-align: center;
-    
 }
 .abonents_block{
     text-align: center;
@@ -923,6 +940,7 @@ color: #ffffff;
     margin-top: 100px;
 }
 .prize__button{
+    z-index: 999;
 }
 .section_news{
      position: relative;
@@ -934,9 +952,12 @@ color: #ffffff;
 .news_bg__img{
     position: absolute;
     top:0;
-    right: 0;
+    right: -200px;
+    z-index: -1;
 }
 .news_container{
+    position: relative;
+    z-index: 1;
     background-color: rgba(237, 89, 0, 0.89);
     padding: 77px 66px 41px;
 }
@@ -946,13 +967,17 @@ color: #ffffff;
 }
 .news_item{
    margin-bottom: 45px;
+     display: flex;
+    align-items: flex-start;
     &:last-child{
         margin-bottom: 0;
     }
 }
 .news__link{
-     display: flex;
-    align-items: flex-start;
+    
+}
+.news_info{
+    width: calc(100% - 290px);
 }
 .news__date,.news__text{
     margin-left: 23px;
