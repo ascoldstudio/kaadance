@@ -303,6 +303,13 @@
     .expirience_item{
         width: 50%;
     }
+    .partners_block{
+        flex-direction: column;
+        align-items: center;
+    }
+    .partners__link{
+        margin-bottom: 20px;
+    }
 }
 /* Extra Small Devices, Phones */
 @media only screen and (max-width : 480px){
