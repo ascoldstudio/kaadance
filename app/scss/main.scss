@@ -590,6 +590,9 @@ body{
     line-height: 84px;
     padding: 0 24px;
     box-sizing: border-box;
+    &.accent{
+        color:#a20e10;
+    }
 }
 .how-it-did_item__icon{
     padding-left: 15px;
