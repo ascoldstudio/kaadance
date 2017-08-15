@@ -82,7 +82,7 @@ body{
     text-transform: uppercase;
     color:#fff;
     line-height: 1;
-        .accent{
+    .accent{
         color: #a20e10;
     }
     .accent_b{
@@ -241,6 +241,7 @@ body{
 }
 .header_video__container{
     display: inline-block;
+    border: 3px solid #ff9d00;
 }
 //HEADER END
 //GALLERY BEGIN
@@ -261,6 +262,7 @@ body{
         display: block;
         width: 305px;
         margin-bottom: 45px;
+        border: 3px solid #ff9d00;
         .gallery__img{
             display: block;
         }
@@ -282,7 +284,7 @@ body{
     z-index: 999;
 }
 .about_container{
-    padding: 55px 65px;
+    padding: 55px 55px 55px 65px;;
     background: rgba(237, 89, 0, 0.89)  url("../img/dancer_left.png") no-repeat 150px 20px;
     position: relative;
     display: flex;
@@ -396,7 +398,7 @@ body{
 }
 
 .about__button{
-    margin-left: 100px;
+    margin-left: 90px;
 }
 //ABOUT END
 //RALLY BEGIN
@@ -620,12 +622,16 @@ body{
     text-align: center;
 }
 .times_container{
-    display: grid;
-    grid-template-columns: 2fr 1fr;
+    display: flex;
+    justify-content: space-between;
     padding-bottom: 330px;
+    margin-top: 74px;
 }
 .times_left_item{
-    padding-bottom: 15px;
+    padding-bottom: 10px;
+}
+.times_right_item{
+    padding-bottom: 10px;
 }
 .times_left__title{
     font-family: "Open Sans";
@@ -645,7 +651,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     color: #000000;
-    line-height: 36px;
+    line-height: 18px;
     text-transform: uppercase;
 }
 .times_right__subtitle{
@@ -653,7 +659,7 @@ body{
     font-size: 18px;
     font-weight: 600;
     color: #ffffff;
-    line-height: 36px;
+    line-height: 30px;
 }
 .times_info_block{
     text-align: right;
