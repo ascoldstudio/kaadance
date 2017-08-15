@@ -16,6 +16,7 @@ var		cache          = require('gulp-cache');
 var		autoprefixer   = require('gulp-autoprefixer');
 var		ftp            = require('vinyl-ftp');
 var		rsync          = require('gulp-rsync');
+var     htmlmin        = require('gulp-htmlmin');
 
 
 // Скрипты проекта
@@ -81,9 +82,14 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 
 	var buildFiles = gulp.src([
 		'app/*.html',
-		'app/.htaccess',
-		]).pipe(gulp.dest('dist'));
-
+		])
+        .pipe(htmlmin({collapseWhitespace: true}))
+        .pipe(gulp.dest('dist'));
+    
+    var buildHtaccess = gulp.src([
+        'app/.htaccess',
+    ]).pipe(gulp.dest('dist'));
+    
 	var buildCss = gulp.src([
 		'app/css/main.min.css',
 		]).pipe(gulp.dest('dist/css'));
