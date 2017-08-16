@@ -8,7 +8,7 @@
 html, body{
 	height: 100%;
     width: 100%;
-    
+    -webkit-text-size-adjust: none;
 }
 a{ text-decoration: none; color: inherit; }
 .slick-slide{outline: 0;}
@@ -207,6 +207,7 @@ section{
             bottom: 10px;
             left:calc(50% - 15px);
         }
+       
         .header_main_right__item{
         }
      }
@@ -372,6 +373,7 @@ section{
         background: url("../img/thread_2.svg") no-repeat 0 0;
         
     }
+    
     &:nth-child(3) .about_item__title::after{
         position: absolute;
         display: block;

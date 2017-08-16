@@ -59,7 +59,7 @@ gulp.task('sass', function() {
     .pipe(plumber())
 	.pipe(scss())
 	.pipe(rename({suffix: '.min', prefix : ''}))
-	.pipe(autoprefixer(['last 15 versions']))
+	.pipe(autoprefixer(['last 20 versions']))
 	.pipe(cleanCSS().on("error", notify.onError())) // Опционально, закомментировать при отладке
 	.pipe(gulp.dest('app/css'))
 	.pipe(browserSync.reload({stream: true}));
