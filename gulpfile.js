@@ -55,7 +55,7 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function() {
-	 gulp.src('app/scss/**/*.scss')
+	gulp.src(['app/scss/**/*.scss!mobile.scss','app/scss/mobile.scss'])
     .pipe(plumber())
 	.pipe(scss())
 	.pipe(rename({suffix: '.min', prefix : ''}))
