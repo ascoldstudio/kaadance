@@ -20,8 +20,8 @@ body{
 	overflow-x: hidden;
 	opacity: 1;
 }
-section{
-  
+.main{
+  overflow-x: hidden;
 }
 .img-responsive{
 	display: block;
@@ -739,7 +739,7 @@ section{
     background-size: cover;
      padding: 20px 0;
     width: 100%;
-    overflow-x: hidden;
+    //overflow-x: hidden;
 }
 .forms_container{
     background-color: rgba(237, 89, 0, 0.89);
