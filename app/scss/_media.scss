@@ -59,7 +59,7 @@
 }
 	/**/
 
-@media only screen and (max-width : 900px){
+@media (max-width : 900px){
    
         .about_list{
    
@@ -161,7 +161,7 @@
 
 
 /* Small Devices, Tablets */
-@media only screen and (max-width : 768px){
+@media (max-width : 768px){
     .header_main_container{
         background: none;
         padding: 30px 0;
@@ -305,7 +305,7 @@
     }
 }
 
-@media only screen and (max-width : 630px){
+@media (max-width : 630px){
     .header_top_container{
         display: none;
     }
@@ -331,7 +331,7 @@
         padding-right: 15px;
     }
 }
-@media only screen and (max-width : 585px){
+@media (max-width : 585px){
     .expirience_item{
         width: 50%;
     }
@@ -348,7 +348,7 @@
     }
 }
 /* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px){
+@media (max-width : 480px){
     .expirience_item{
         width: 100%;
     }
@@ -370,7 +370,7 @@
 }
 	/**/
 
-@media only screen and (max-width : 380px){
+@media  (max-width : 380px){
     .button_ye,.button_w{
         width: 200px;
     }
@@ -395,7 +395,7 @@
 
             &:nth-child(1) .about_item__title::before{
                 top:140px;
-                left: 60px;
+                //left: 100px;
                 
                 width: 201px;
             }
@@ -404,7 +404,7 @@
                  
                 width: 201px;
                 top:60px;
-                 left: 60px;
+                // left: 100px;
                  z-index: -1;
             }
 
@@ -412,13 +412,13 @@
                 
                 width: 201px;
                 top:120px;
-                left: 30px;
+                //left: 90px;
             }
              &:nth-child(4) .about_item__title::after{
                  
                 width: 201px;
                 top:140px;
-                 left: 60px;
+                // left: 90px;
                  z-index: -2;
             }
              &:nth-child(2) .about_item__subtitle,  {
