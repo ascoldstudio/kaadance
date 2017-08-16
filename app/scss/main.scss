@@ -8,6 +8,7 @@
 html, body{
 	height: 100%;
     width: 100%;
+    
 }
 a{ text-decoration: none; color: inherit; }
 .slick-slide{outline: 0;}
@@ -20,7 +21,9 @@ body{
 	overflow-x: hidden;
 	opacity: 1;
 }
-
+section{
+    overflow-x: hidden;
+}
 .img-responsive{
 	display: block;
 	max-width: 100%;
@@ -45,6 +48,7 @@ body{
 	margin: 0 auto;
 	padding: 0 15px;
 	box-sizing: border-box;
+    overflow-x: hidden;
 }
 .wrapper-2{
     max-width:1200px;
