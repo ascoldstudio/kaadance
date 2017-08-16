@@ -8,7 +8,6 @@
 html, body{
 	height: 100%;
     width: 100%;
-    -webkit-text-size-adjust: none;
 }
 a{ text-decoration: none; color: inherit; }
 .slick-slide{outline: 0;}
@@ -361,6 +360,7 @@ section{
         height: 147px;
         content:"";
         background: url("../img/thread_1.svg") no-repeat 0 0;
+        background-size: contain;
         
     }
      &:nth-child(2) .about_item__title::after{
@@ -371,6 +371,7 @@ section{
         height: 147px;
         content:"";
         background: url("../img/thread_2.svg") no-repeat 0 0;
+         background-size: contain;
         
     }
     
@@ -382,7 +383,8 @@ section{
         width: 2px;
         height: 43px;
         content:"";
-       background: url("../img/thread_3.svg") no-repeat 0 0;
+        background: url("../img/thread_3.svg") no-repeat 0 0;
+        background-size: contain;
         
     }
      &:nth-child(4) .about_item__title::after{
@@ -395,6 +397,7 @@ section{
         height: 118px;
         content:"";
        background: url("../img/thread_4.svg") no-repeat 0 0;
+         background-size: contain;
         
     }
     }
