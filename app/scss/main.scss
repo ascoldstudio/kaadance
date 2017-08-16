@@ -723,8 +723,9 @@ section{
 }
 .two_section__img{
     position: absolute;
-    left: 0;
-    z-index: 999;
+    right:-300px;
+    top: -50px;
+    z-index: 2;
     height: 850px
 }
 //FORMS BEGIN
@@ -738,11 +739,13 @@ section{
     background-color: rgba(237, 89, 0, 0.89);
     padding-top: 40px;
     padding-bottom: 34px;
+    
 }
 .forms_main{
     border-radius: 5px;
     border: 1px solid #e8e8e8;
     padding: 50px 40px;
+    position: relative;
 }
 .forms_title{
     text-align: left;
