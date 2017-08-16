@@ -7,6 +7,7 @@
 //BASE BEGIN
 html, body{
 	height: 100%;
+    width: 100%;
 }
 a{ text-decoration: none; color: inherit; }
 .slick-slide{outline: 0;}
@@ -111,7 +112,7 @@ body{
 //BASE END
 //HEADER BEGIN
 .header{
-    background-image: url("../img/maxresdefault.png");
+    background-image: url("../img/maxresdefault.jpg");
 	background-size:cover;
     background-position: center 0;
 	width:100%;
