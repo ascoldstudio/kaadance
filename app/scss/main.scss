@@ -125,6 +125,7 @@ body{
 .header{
     background-image: url("../img/maxresdefault.jpg");
 	background-size:cover;
+    background-repeat: no-repeat;
     background-position: center 0;
 	width:100%;
     padding: 20px 0 78px;
@@ -144,10 +145,16 @@ body{
     
 }
 .header__menu{
+    max-width: 620px;
+    width: 100%;
     margin-top: 15px;
 	display:flex;
 	justify-content:space-between;
     align-items: center;
+}
+.header_logo{
+    position: relative;
+    left: 6px;
 }
 .header_menu_link{
     padding: 0 20px;
@@ -157,6 +164,7 @@ body{
     font-weight: 400;
     text-transform: uppercase;
     transition: color 0.5s;
+    box-sizing: border-box;
 	&:hover, &:focus{
         
         color: darken(#fff, 15%);
@@ -257,10 +265,12 @@ body{
     font-weight: 600;
     text-transform: uppercase;
     text-align: center;
+    line-height: 20px;
     &.accent{
         font-weight: 400;
         color: #ffdd00;
         font-size: 24px;
+        line-height: 30px;
     }
 }
 .header_bottom__title{
