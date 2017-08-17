@@ -156,7 +156,10 @@ body{
     font-size: 30px;
     font-weight: 400;
     text-transform: uppercase;
+    transition: color 0.5s;
 	&:hover, &:focus{
+        
+        color: darken(#fff, 15%);
 	}
 }
 
