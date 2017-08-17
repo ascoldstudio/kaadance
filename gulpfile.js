@@ -55,7 +55,16 @@ gulp.task('browser-sync', function() {
 });
 
 gulp.task('sass', function() {
-	gulp.src(['app/scss/**/*.scss!mobile.scss','app/scss/mobile.scss'])
+    var mainCss= gulp.src('app/scss/**/main.scss')
+    .pipe(plumber())
+	.pipe(scss())
+	.pipe(rename({suffix: '.min', prefix : ''}))
+	.pipe(autoprefixer(['last 20 versions']))
+	.pipe(cleanCSS().on("error", notify.onError())) // Опционально, закомментировать при отладке
+	.pipe(gulp.dest('app/css'))
+	.pipe(browserSync.reload({stream: true}));
+    
+    var mediaCss = gulp.src('app/scss/**/mobile.scss')
     .pipe(plumber())
 	.pipe(scss())
 	.pipe(rename({suffix: '.min', prefix : ''}))

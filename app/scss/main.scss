@@ -20,9 +20,8 @@ body{
 	overflow-x: hidden;
 	opacity: 1;
 }
-.main{
-  overflow-x: hidden;
-    overflow-y: hidden;
+.main{ 
+  overflow:hidden;
 }
 .img-responsive{
 	display: block;
@@ -40,7 +39,7 @@ body{
     }
 }
 .slicknav_btn{
-    background-color: #a20e10;
+    background-color: #a20e10; 
 }
 .wrapper{
 	max-width:1330px;
