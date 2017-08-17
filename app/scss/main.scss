@@ -92,11 +92,19 @@ body{
     box-sizing: border-box;
     display:inline-block;
     z-index: 1000;
+    &:hover, &:active{
+        border-color: lighten(#9c0000, 15%);
+        color:lighten(#9c0000, 15%);
+    }
 }
 .button_w{
     border: 1px solid #ffffff;
     color: #ffffff;
     background: transparent;
+     &:hover, &:active{
+        border-color: darken(#fff, 15%);
+        color:darken(#fff, 15%);
+    }
 }
 .section_title{
     font-family: "Open Sans";
