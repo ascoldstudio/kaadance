@@ -22,6 +22,7 @@ body{
 }
 .main{
   overflow-x: hidden;
+    overflow-y: hidden;
 }
 .img-responsive{
 	display: block;
@@ -403,7 +404,7 @@ body{
     }
 }
 .about_item__title{
-    display: inline-block;
+    display: block;
     font-family: "Open Sans";
     font-size: 60px;
     font-weight: 700;

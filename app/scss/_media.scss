@@ -5,7 +5,6 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
     .about_container{
-        //background: rgba(237,89,0,.89);
         background-position: 150px center;
         flex-direction: column;
         align-items: center;
@@ -244,21 +243,25 @@
             &:nth-child(1) .about_item__title::before{
                 top:80px;
                 left: 50px;
+                content:"";
             }
 
              &:nth-child(2) .about_item__title::after{
                 top:20px;
                  left: 30px;
+                 content:"";
             }
 
             &:nth-child(3) .about_item__title::after{
                 top:85px;
                 left: 10px;
+                content:"";
             }
              &:nth-child(4) .about_item__title::after{
                 top:120px;
                  left: 30px;
                  z-index: -2;
+                 content:"";
             }
              &:nth-child(2) .about_item__subtitle, &:nth-child(5) .about_item__subtitle {
                  padding-bottom: 20px;
