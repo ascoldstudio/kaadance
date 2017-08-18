@@ -974,6 +974,7 @@ color: #ffffff;
 .question_left{
     width: calc(50% - 30px);
     margin-right: 30px;
+    margin-bottom: -31px;
 }
 .question_item{
     border-radius: 5px;
@@ -983,9 +984,7 @@ color: #ffffff;
     &.active{
        display: none;
     }
-    &:last-child{
-        margin-bottom: 0;
-    }
+   
     .question__text{
         display: none;
     }
