@@ -113,9 +113,7 @@ body{
     text-transform: uppercase;
     color:#fff;
     line-height: 1;
-    .accent{
-        color: #a20e10;
-    }
+   
     .accent_b{
         color: #000000;
     }
@@ -155,6 +153,10 @@ body{
 .header_logo{
     position: relative;
     left: 6px;
+    .logo__img{
+        width: 95px;
+height: 77px;
+    }
 }
 .header_menu_link{
     padding: 0 20px;
@@ -179,7 +181,7 @@ body{
     justify-content: space-between;
     position: relative;
     background-image: url('../img/shutterstock-481805962.png');
-    background-position: calc(50% - 20px) 0;
+    background-position: calc(50% - 40px) 0;
     background-repeat: no-repeat;
     background-size: contain;
     padding: 180px 0 80px;
@@ -187,16 +189,17 @@ body{
 }
 .header_main__left{
     max-width: 283px;
+    margin-left: 40px;
 }
 .header_title__accent{
-    color: #a31010;
+     color: #000000;
     font-family: "Open Sans";
     font-size: 30px;
     font-weight: 600;
     line-height: 48px;
     text-transform: uppercase;
     &.bold{
-        color: #a31010;
+         color: #000000;
         font-family: "BravoRG";
         font-size: 60px;
         font-weight: 400;
@@ -234,7 +237,7 @@ body{
     
 .header_list__title{
     text-align: center;
-    color: #ffffff;
+    color: #000;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 600;
@@ -247,38 +250,43 @@ body{
     font-weight: 400;
 }
 .header__button{
-    margin-top: 106px;
+    margin-top: 38px;
 }
 .header_main__bottom{
     text-align: center;
     margin-top: 30px;
 }
 .header_main_bottom_text{
-    display: inline-block;
-   
-    width: auto;
+    max-width: 580px;
+    width: 100%;
+    margin: 0 auto;
 }
 .header_bottom__text{
-    color: #ffdd00;
+    color: #ffffff;
     font-family: "Open Sans";
     font-size: 16px;
     font-weight: 600;
     text-transform: uppercase;
-    text-align: center;
+    text-align: justify;
+    -moz-text-align-last: justify;
+  text-align-last: justify;
     line-height: 20px;
     &.accent{
         font-weight: 400;
-        color: #ffdd00;
+        color: #ffffff;
         font-size: 24px;
         line-height: 30px;
     }
 }
 .header_bottom__title{
-     text-align: center;
-    color: #a31010;
+    text-align: justify;
+    -moz-text-align-last: justify;
+     text-align-last: justify;
+    color: #000;
     font-family: "BravoRG";
     font-size: 60px;
     text-transform: uppercase;
+    white-space: pre-wrap;
 }
 .header_video{
     margin-top: 98px;
@@ -290,8 +298,8 @@ body{
     border: 3px solid #ff9d00;
 }
 .header__video{
-    width: 796px;
-    height: 453px;
+    width: 1100px;
+    height: 500px;
 }
 //HEADER END
 //GALLERY BEGIN
