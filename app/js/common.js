@@ -12,7 +12,7 @@ $(document).ready(function(){
     //Accordeon
     $(function(){
         $(".question_item").on('click', function(e){
-            e.preventDefault();
+            
             var text = $(this).find(".question__text").text();
             var title = $(this).find(".question__title").text();
             $(".question_right .question__text").text(text);
