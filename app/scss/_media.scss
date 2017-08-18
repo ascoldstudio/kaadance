@@ -45,7 +45,7 @@
         width: 100%;
         margin: 0;
     }
-    .question_left{
+    .question_right{
         margin-bottom: 30px;
     }
     .footer_geo_block,.footer_contact_block,.footer_social_block,.copyright_block{
@@ -303,6 +303,10 @@
     }
     .slicknav_menu{
         display: block;
+    }
+    .header_main__bottom{
+        margin-top: 0;
+        padding-top: 50px;
     }
     .header_main_container{
         flex-direction: column;
