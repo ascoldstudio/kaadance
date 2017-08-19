@@ -10,26 +10,22 @@
         align-items: center;
     }
     .prize_bg__img.left{
-         display: none;
+        // display: none;
     }
    
     .about_bg_img{
-        display: none;
+        //display: none;
     }
     .about_right{
         margin-top: 50px;
     }
-    .rally_bg__img.right{
-        display: none;
-    }
-    .must_know_bg__img{
-        display: none;
-    }
+   
+    
     .prize_bg__img.right{
-        display: none;
+        //display: none;
     }
     .news_bg__img.right{
-        display: none;
+       // display: none;
     }
     .news_block{
         max-width: 100%;
@@ -37,6 +33,11 @@
 }
 }
 @media only screen and (max-width : 1100px){
+    .header_main_container{
+    background-position: center 0;
+    }
+   
+
     .must_know_question{
         flex-direction: column;
         align-items: center;
@@ -54,6 +55,9 @@
     }
     .socials{
         justify-content: space-around;
+    }
+     .section_must_know .must_know_bg__img.left{
+       left: 15%;
     }
 }
 	/**/
@@ -137,15 +141,22 @@
     .social__link{
         margin-right: 15px;
     }
+    .two_section__img {
+	right: -200px;
+}
 }
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px){
     .header__video{
-        width: 450px;
+        width: 500px;
         height: 300px;
     }
     .how_container{
-         background: rgba(237, 89, 0, 0.89);
+        // background: rgba(237, 89, 0, 0.89);
+    }
+     .section_rally .rally_bg__img.right{
+      
+         right: -100px;
     }
 }
 	/**/
@@ -154,7 +165,7 @@
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px){
     .header_main_container{
-        background: none;
+        //background: none;
         padding: 30px 0;
     }
     .header__button{
@@ -204,7 +215,7 @@
         display: none;
     }
     .section_times{
-         background: rgba(237, 89, 0, 0.89);
+         //background: rgba(237, 89, 0, 0.89);
     }
     .news_item{
         flex-direction: column;
@@ -213,6 +224,17 @@
     .news_info{
         margin-top: 20px;
         width: 100%;
+    }
+     .section_rally .rally_bg__img.right{
+      
+         right: 60px;
+         //top:400px;
+    }
+    .must_know_bg__img.right{
+        display: none;
+    }
+    .section_must_know .must_know_bg__img.left{
+       left: 10%;
     }
 }
 	/**/
@@ -265,7 +287,7 @@
         flex-direction: column;
     }
     .two_section__img{
-        display: none;
+        //display: none;
     }
     .forms_title{
         text-align: center;
@@ -290,10 +312,14 @@
         left:calc(50% - 125px);
     }
     .rally_bg__img.left{
-        display: none;
+        //display: none;
     }
     .times_bg__img{
-        display: none;
+        //display: none;
+    }
+    .section_how .how_bg__img.left {
+	    bottom: 0;
+        top:auto;
     }
 }
 
@@ -301,6 +327,16 @@
     .header_top_container{
         display: none;
     }
+    .header_bottom__title, .header_bottom__text {
+	white-space: pre-wrap;
+}
+    .header_bottom__title{
+        font-size: 35px;
+    }
+    .header_main{
+        margin-top: 0;
+    }
+    
     .slicknav_menu{
         display: block;
     }
@@ -311,20 +347,27 @@
     .header_main_container{
         flex-direction: column;
         align-items: center;
+        padding-top: 10px;
+        background-position-y: 35%;
     }
     .header_main__left{
         text-align: center;
+        margin-left: 0;
     }
     .header_main__right{
-        margin-top: 106px;
+        margin-top: 400px;
+        text-align: center;
     }
     .header__video{
-        width: 300px;
-        height: 200px;
+        width: 450px;
+        height: 300px;
     }
     .news_container{
         padding-left: 15px;
         padding-right: 15px;
+    }
+    .section_must_know .must_know_bg__img.left{
+       left: 5%;
     }
 }
 @media (max-width : 585px){
@@ -344,7 +387,14 @@
     }
 }
 /* Extra Small Devices, Phones */
-@media (max-width : 480px){
+@media (max-width : 490px){
+    .header_bottom__text {
+	font-size: 12px;
+        &.accent{
+            font-size: 18px;
+        }
+     }
+    
     .expirience_item{
         width: 100%;
     }
@@ -352,8 +402,8 @@
         background: rgba(237,89,0,.89);
     }
     .header__video{
-        width: 220px;
-        height: 150px;
+        width: 350px;
+        height: 200px;
     }
     .forms_roles{
         flex-direction: column;
@@ -362,15 +412,42 @@
     .roles__item{
         margin-bottom: 20px;
     }
+    .section_how .how_bg__img.right {
+	   
+        top:100px;
+    }
+    .section_must_know .must_know_bg__img.left{
+       left: 0;
+    }
     
 }
 	/**/
 
 
 /* Custom, iPhone Retina */
-@media only screen and (max-width : 320px){
-    
+@media only screen and (max-width : 390px){
+    .header_bottom__title {
+	font-size: 26px;
+}
+    .header_bottom__text {
+	font-size: 10px;
+        &.accent{
+            font-size: 18px;
+        }
+}
+    .section_how .how_bg__img.right {
+	   
+        top:200px;
     }
+    }
+@media only screen and (max-width : 350px){
+.header_bottom__text {
+	font-size: 9px;
+        &.accent{
+            font-size: 16px;
+        }
+    }
+}
 	/**/
 
 

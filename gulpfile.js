@@ -20,7 +20,6 @@ var     htmlmin        = require('gulp-htmlmin');
 
 
 // Скрипты проекта
-
 gulp.task('common-js', function() {
 	 gulp.src([
 		'app/js/common.js',

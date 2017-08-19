@@ -301,6 +301,7 @@ height: 77px;
 .header__video{
     width: 1100px;
     height: 500px;
+    display: block;
 }
 //HEADER END
 //GALLERY BEGIN
@@ -308,6 +309,7 @@ height: 77px;
     padding: 106px 0 70px;
     background: url("../img/girl_left.png") no-repeat 0 40px, 
          #ed5900 url("../img/girl_right.png") no-repeat 100% 40px;
+    background-size: contain;
 }
 .gallery__title{
     text-align: center;
@@ -485,7 +487,8 @@ height: 77px;
             top:13px;
             left: auto;
             right: -300px;
-            z-index: 1;
+            z-index: -1;
+            max-width: 90%;
         }
     }
     .rally_container{
@@ -603,12 +606,19 @@ height: 77px;
         top:38px;
         right:0;
         z-index: -1;
-}
+        &.left{
+            left: 0;
+            right: auto;
+            top:50px;
+        }
+        &.right{
+            z-index: -2;
+        }
+    }
 }
 .how_container{
      padding: 102px 0 33px;
-         background: rgba(237, 89, 0, 0.89) url("../img/dancer_left3.png") no-repeat 0  86px;
-         background-size: contain;
+         background: rgba(237, 89, 0, 0.89);
          position: relative;
     z-index: 1;
 }
@@ -679,18 +689,26 @@ height: 77px;
 //TIMES BEGIN
 .section_times{
     position: relative;
-    background: rgba(237, 89, 0, 0.89) url("../img/dancer_center.png") center calc(100% - 20px) no-repeat;
+    background: rgba(237, 89, 0, 0.89);
     padding: 95px 0 20px;
+    z-index: 2;
     .times_bg__img{
         position: absolute;
         top: 50px;
         bottom: 0;
         &.left{
             left:0;
+            z-index: -2;
         }
         &.right{
             top: 0;
             right: 0;
+        }
+        &.center{
+            bottom: 0;
+            top: auto;
+            left: calc(50% - 350px);
+            z-index: -1;
         }
         
     }
@@ -762,8 +780,8 @@ height: 77px;
 .two_section__img{
     position: absolute;
     right:-300px;
-    top: -50px;
-    z-index: 2;
+    top: 5px;
+    z-index: 1;
     height: 850px
 }
 //FORMS BEGIN
@@ -772,19 +790,21 @@ height: 77px;
     background-size: cover;
      padding: 20px 0;
     width: 100%;
+    
     //overflow-x: hidden;
 }
 .forms_container{
     background-color: rgba(237, 89, 0, 0.89);
     padding-top: 40px;
     padding-bottom: 34px;
-    
+    z-index: 2;
 }
 .forms_main{
     border-radius: 5px;
     border: 1px solid #e8e8e8;
     padding: 50px 40px;
     position: relative;
+    z-index: 1;
 }
 .forms_title{
     text-align: left;
@@ -861,6 +881,8 @@ height: 77px;
 .forms_bottom_block{
     width: 60%;
     margin-top: 33px;
+    position: relative;
+    z-index: 2;
 }
 .forms_bottom_title{
     text-align: center;
@@ -905,16 +927,16 @@ color: #ffffff;
     z-index: 1;
     .must_know_bg__img{
         position: absolute;
-        z-index: -1;
         &.left{
             top:50px;
             left:0;
-            
+            z-index: -1
         }
         &.right{
             top:0;
             right:0;
             height: 100%;
+            z-index: -2;
         }
     }
 }
@@ -1006,9 +1028,11 @@ color: #ffffff;
     z-index: -1;
     &.left{
         left: -100px;
+        z-index: -1;
     }
     &.right{
         right: -177px;
+        z-index: -2;
     }
 }
 .prize_container{
@@ -1188,5 +1212,6 @@ color: #ffffff;
         color: #ffffff;
     }
 }
+
 @import "_media"; 
 
