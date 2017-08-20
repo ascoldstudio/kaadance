@@ -9,9 +9,6 @@
         flex-direction: column;
         align-items: center;
     }
-    .prize_bg__img.left{
-        // display: none;
-    }
    
     .about_bg_img{
         //display: none;
@@ -21,15 +18,15 @@
     }
    
     
-    .prize_bg__img.right{
-        //display: none;
-    }
-    .news_bg__img.right{
-       // display: none;
-    }
+     .section_times .times_bg__img.right {
+	display: none;
+}
     .news_block{
         max-width: 100%;
         width: 100%;
+}
+    .must_know_bg__img.right {
+	display: none;
 }
 }
 @media only screen and (max-width : 1100px){
@@ -59,6 +56,16 @@
      .section_must_know .must_know_bg__img.left{
        left: 15%;
     }
+     .prize_bg__img{
+        &.right{
+        display: none;
+        }
+    }
+    .section_gallery{
+    background: #ed5900 url("../img/girl_left.png") no-repeat 0 40px, 
+         
+}
+   
 }
 	/**/
 
@@ -113,10 +120,13 @@
         }
         
         }
-            .about__button{
-                margin-top: 50px;
-            }
+        .about__button{
+            margin-top: 50px;
+        }
     }
+    .about_bg_img {
+	display: none;
+}
     .footer_bottom_block{
         flex-direction: column;
         align-items: center;
@@ -157,6 +167,14 @@
      .section_rally .rally_bg__img.right{
       
          right: -100px;
+    }
+    .two_section__img{
+    right:-200px;
+}
+     .prize_bg__img{
+    &.left{
+    width: 100%;
+    }
     }
 }
 	/**/
@@ -203,7 +221,7 @@
     .times_container{
         flex-direction: column;
         align-items: center;
-        padding-bottom: 50px;
+        padding-bottom: 250px;
     }
     .times_left_list, .times_right_list{
         text-align: center;
@@ -214,9 +232,16 @@
     .times_bg__img.right{
         display: none;
     }
+    
     .section_times{
-         //background: rgba(237, 89, 0, 0.89);
+         .times_bg__img.center {
+            left: calc(50% - 330px);
+        }
     }
+    .news_bg__img.right {
+        width: 90%;
+	
+}
     .news_item{
         flex-direction: column;
         align-items: center;
@@ -235,6 +260,11 @@
     }
     .section_must_know .must_know_bg__img.left{
        left: 10%;
+    }
+    .prize_bg__img{
+    &.left{
+     width: 100%;
+    }
     }
 }
 	/**/
@@ -369,6 +399,21 @@
     .section_must_know .must_know_bg__img.left{
        left: 5%;
     }
+     .section_times{
+         .times_bg__img.center {
+            left: calc(50% - 300px);
+        }
+    }
+     .prize_bg__img{
+    &.left{
+     width: 120%;
+        top:120px;
+    }
+    }
+     .news_bg__img.right {
+        right: 0;
+	
+}
 }
 @media (max-width : 585px){
     .expirience_item{
@@ -384,6 +429,14 @@
     .question__title.answer{
         text-align: center;
         word-break:keep-all;
+    }
+    .section_times{
+         .times_bg__img.center {
+            left: calc(50% - 280px);
+        }
+        .times_bg__img.left {
+	        top: auto;
+        }
     }
 }
 /* Extra Small Devices, Phones */
@@ -419,6 +472,21 @@
     .section_must_know .must_know_bg__img.left{
        left: 0;
     }
+     .section_times{
+         .times_bg__img.center {
+            left: calc(50% - 240px);
+        }
+    }
+     .prize_bg__img{
+    &.left{
+     width: 100%;
+        left: 1%;
+    }
+    }
+    .news_bg__img.right {
+        right: -100px;
+	
+}
     
 }
 	/**/
@@ -439,13 +507,22 @@
 	   
         top:200px;
     }
-    }
+    .news_bg__img.right {
+        right: -50px;
+	
+}
+}
 @media only screen and (max-width : 350px){
 .header_bottom__text {
 	font-size: 9px;
         &.accent{
             font-size: 16px;
         }
+    }
+     .prize_bg__img{
+    &.left{
+    top:150px;
+    }
     }
 }
 	/**/

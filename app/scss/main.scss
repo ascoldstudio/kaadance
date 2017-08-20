@@ -121,7 +121,7 @@ body{
 //BASE END
 //HEADER BEGIN
 .header{
-    background-image: url("../img/maxresdefault.jpg");
+    background-image: url("../img/fon1.png");
 	background-size:cover;
     background-repeat: no-repeat;
     background-position: center 0;
@@ -308,7 +308,7 @@ height: 77px;
 .section_gallery{
     padding: 106px 0 70px;
     background: url("../img/girl_left.png") no-repeat 0 40px, 
-         #ed5900 url("../img/girl_right.png") no-repeat 100% 40px;
+         #ed5900 url("../img/girl_right.png") no-repeat 150% 40px;
     background-size: contain;
 }
 .gallery__title{
@@ -334,7 +334,7 @@ height: 77px;
 //GALLERY END
 //ABOUT BEGIN
 .section_about{
-    background: url("../img/maxresdefault-left.png") no-repeat center 0;
+    background: url("../img/fon3.png") no-repeat center 0;
    background-size: cover;
      position: relative;
     padding: 20px 0;
@@ -472,7 +472,7 @@ height: 77px;
 //ABOUT END
 //RALLY BEGIN
 .section_rally{
-    background: url("../img/maxresdefault_right.png") no-repeat center 0;
+    background: url("../img/fon4.png") no-repeat center 0;
     background-size: cover;
      position: relative;
     padding: 20px 0;
@@ -596,7 +596,7 @@ height: 77px;
 //HOW BEGIN
 .section_how{
     position: relative;
-    background: url("../img/maxresdefault-left.png") no-repeat center 0;
+    background: url("../img/fon5.png") no-repeat center 0;
     background-size: cover;
      position: relative;
     padding: 20px 0;
@@ -699,6 +699,8 @@ height: 77px;
         &.left{
             left:0;
             z-index: -2;
+            top: auto;
+            bottom: 0;
         }
         &.right{
             top: 0;
@@ -780,13 +782,13 @@ height: 77px;
 .two_section__img{
     position: absolute;
     right:-300px;
-    top: 5px;
-    z-index: 1;
+    top: -50px;
+    z-index: 2;
     height: 850px
 }
 //FORMS BEGIN
 .section_forms{
-     background: url("../img/maxresdefault_right.png") no-repeat center 0;
+     background: url("../img/fon7.png") no-repeat center 0;
     background-size: cover;
      padding: 20px 0;
     width: 100%;
@@ -804,10 +806,12 @@ height: 77px;
     border: 1px solid #e8e8e8;
     padding: 50px 40px;
     position: relative;
-    z-index: 1;
+    z-index: 2;
 }
 .forms_title{
     text-align: left;
+    position: relative;
+    z-index: 2;
     .accent{
         color: #000000;
     }
@@ -815,6 +819,8 @@ height: 77px;
 .forms_block_container{
     display: flex;
     justify-content: space-between;
+    position: relative;
+    z-index: 2;
 }
 .forms_block__left, .forms_block__right{
     width: 50%;
@@ -1018,7 +1024,7 @@ color: #ffffff;
 //PRIZE BEGIN
 .section_prize{
     position: relative;
-     background: url("../img/maxresdefault-left.png") no-repeat center 0;
+     background: url("../img/fon9.png") no-repeat center 0;
     background-size: cover;
      padding: 20px 0;
     width: 100%;
@@ -1072,7 +1078,7 @@ color: #ffffff;
 }
 .section_news{
      position: relative;
-     background: url("../img/maxresdefault_right.png") no-repeat center 0;
+     background: url("../img/fon10.png") no-repeat center 0;
     background-size: cover;
      padding: 20px 0;
     width: 100%;
