@@ -181,7 +181,7 @@ height: 77px;
     justify-content: space-between;
     position: relative;
     background-image: url('../img/shutterstock-481805962.png');
-    background-position: calc(50% - 40px) 0;
+    background-position: calc(50% - 40px) 20px;
     background-repeat: no-repeat;
     background-size: contain;
     padding: 180px 0 80px;
@@ -308,7 +308,7 @@ height: 77px;
 .section_gallery{
     padding: 106px 0 70px;
     background: url("../img/girl_left.png") no-repeat 0 40px, 
-         #ed5900 url("../img/girl_right.png") no-repeat 150% 40px;
+         #ed5900 url("../img/girl_right.png") no-repeat 120% 40px;
     background-size: contain;
 }
 .gallery__title{
