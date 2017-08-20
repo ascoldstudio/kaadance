@@ -91,7 +91,8 @@ gulp.task('build', ['removedist', 'imagemin', 'sass', 'js'], function() {
 	var buildFiles = gulp.src([
 		'app/*.html',
 		])
-        .pipe(htmlmin({collapseWhitespace: true}))
+       // .pipe(htmlmin({collapseWhitespace: true,
+        //              conservativeCollapse: true,}))
         .pipe(gulp.dest('dist'));
     
     var buildHtaccess = gulp.src([
