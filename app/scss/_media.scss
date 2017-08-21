@@ -194,6 +194,7 @@
     .header_main_container{
         //background: none;
         padding: 30px 0;
+         background-position: calc(50% - 7px) 0px;
     }
     .header__button{
         margin-top: 30px;
@@ -261,8 +262,9 @@
     }
      .section_rally .rally_bg__img.right{
       
-        left:10px;
-         //top:400px;
+        left:calc(50% - 150px);
+         top:600px;
+         max-width: 300px;
     }
     .must_know_bg__img.right{
         display: none;
@@ -363,6 +365,9 @@
 }
 
 @media (max-width : 630px){
+    .header{
+        background-image: url("../img/fon1_mobile.png");
+    }
     .header_top_container{
         display: none;
          
@@ -372,7 +377,7 @@
 	white-space: pre-wrap;
 }
     .header_bottom__title{
-        font-size: 35px;
+        font-size: 24px;
     }
     .header_main{
         margin-top: 0;
@@ -390,13 +395,14 @@
         align-items: center;
         padding-top: 10px;
         background-position-y: 30%;
+        background-position-x: calc(50% - 0px);
     }
     .header_main__left{
         text-align: center;
         margin-left: 0;
     }
     .header_main__right{
-        margin-top: 400px;
+        margin-top: 350px;
         text-align: center;
     }
     .header__video{
@@ -427,7 +433,7 @@
     .section_rally .rally_bg__img.right{
       
        
-         top:70px;
+         top:600px;
     }
 }
 @media (max-width : 585px){
@@ -456,6 +462,9 @@
 }
 /* Extra Small Devices, Phones */
 @media (max-width : 490px){
+     .header_bottom__title{
+        font-size: 20px;
+    }
     .header_bottom__text {
 	font-size: 12px;
         &.accent{
@@ -466,6 +475,9 @@
     .header_main__right {
 	margin-top: 300px;
 }
+    .header_main_container {
+	background-position-y:30%;
+        padding-left: 0; }
     
     .expirience_item{
         width: 100%;
@@ -507,7 +519,7 @@
 	
     }
      .section_rally .rally_bg__img.right{
-         top:100px;
+         top:800px;
     }
     .about_list{
          .about__item{
@@ -561,7 +573,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 390px){
     .header_bottom__title {
-	font-size: 26px;
+	font-size: 15px;
 }
     .header_bottom__text {
 	font-size: 10px;
@@ -581,7 +593,7 @@
 	margin-top: 250px;
 }
      .section_rally .rally_bg__img.right{
-         top:180px;
+         top:950px;
     }
 }
 @media only screen and (max-width : 350px){

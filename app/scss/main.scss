@@ -286,8 +286,9 @@ height: 77px;
     -moz-text-align-last: justify;
      text-align-last: justify;
     color: #000;
-    font-family: "BravoRG";
-    font-size: 60px;
+    font-family: "Open Sans";
+    font-size: 32px;
+    font-weight: 600;
     text-transform: uppercase;
     white-space: pre-wrap;
 }
@@ -646,9 +647,8 @@ height: 77px;
     line-height: 84px;
     padding: 0 24px;
     box-sizing: border-box;
-    &.accent{
-        color:#a20e10;
-    }
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+   
 }
 .how-it-did_item__icon{
     padding-left: 15px;
@@ -661,6 +661,7 @@ height: 77px;
     font-weight: 600; 
     padding: 0 24px;
     box-sizing: border-box;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 .how-it-did_item_subtitle{
     font-family: "Open Sans";
@@ -675,6 +676,8 @@ height: 77px;
 .how-it-did__button{
     display: block;
     margin: 37px auto 0;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
+    box-shadow: 0 0 2px rgba(0,0,0,0.5);
 }
 .how-it-did__title_bottom{
     margin-top: 50px;
@@ -685,6 +688,7 @@ height: 77px;
     font-weight: 400;
     text-transform: uppercase;
     color: #ffffff;
+    text-shadow: 0 0 2px rgba(0,0,0,0.5);
     .accent{
         color: #000;
     }
@@ -693,7 +697,7 @@ height: 77px;
 //TIMES BEGIN
 .section_times{
     position: relative;
-    background: rgba(237, 89, 0, 0.74);
+    background: #ed5900;
     padding: 95px 0 20px;
     z-index: 2;
     .times_bg__img{
@@ -774,9 +778,10 @@ height: 77px;
     font-size: 18px;
     font-weight: 400;
     line-height: 24px;
-    color: #ffffff;
+   color: #000;
     .accent{
-        color: #000;
+        
+         color: #ffffff;
     }
 }
 //TIMES END
@@ -969,7 +974,7 @@ color: #ffffff;
     border: 1px solid #ffffff;
 }
 .question__title{
-    color: #000000;
+    color: #fff;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 700;
@@ -988,7 +993,7 @@ color: #ffffff;
     &.answer{
         padding: 0;
         border-bottom: 0;
-        color: #fffefe;
+        color: #000;
         text-align: right;
         display: block;
         font-weight: 600;
