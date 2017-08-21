@@ -5,7 +5,7 @@
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px){
     .about_container{
-        background-position: 150px center;
+        background-position: 0 center;
         flex-direction: column;
         align-items: center;
     }
@@ -261,7 +261,7 @@
     }
      .section_rally .rally_bg__img.right{
       
-         right: 10px;
+        left:10px;
          //top:400px;
     }
     .must_know_bg__img.right{
@@ -416,15 +416,19 @@
         }
     }
      .prize_bg__img{
-    &.left{
-     width: 120%;
-        top:120px;
-    }
+        &.left{
+         width: 120%;
+            top:120px;
+        }
     }
      .news_bg__img.right {
         right: 0;
-	
-}
+    }
+    .section_rally .rally_bg__img.right{
+      
+       
+         top:70px;
+    }
 }
 @media (max-width : 585px){
     .expirience_item{
@@ -501,7 +505,10 @@
     .news_bg__img.right {
         right: -100px;
 	
-}
+    }
+     .section_rally .rally_bg__img.right{
+         top:100px;
+    }
     .about_list{
          .about__item{
 
@@ -573,6 +580,9 @@
     .header_main__right {
 	margin-top: 250px;
 }
+     .section_rally .rally_bg__img.right{
+         top:180px;
+    }
 }
 @media only screen and (max-width : 350px){
 .header_bottom__text {

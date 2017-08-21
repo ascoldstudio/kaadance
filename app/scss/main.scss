@@ -130,7 +130,7 @@ body{
 }
 
 .header_container{
-    background-color: rgba(237, 89, 0, 0.89);
+    background-color: rgba(237, 89, 0, 0.74);
    
 }
 .header__top{
@@ -242,6 +242,7 @@ height: 77px;
     font-family: "Open Sans";
     font-size: 18px;
     font-weight: 600;
+    text-shadow: 0px 0px 2px rgba(255,255,255, 0.5);
 }
 .header_list__text{
     text-align: center;
@@ -345,11 +346,11 @@ height: 77px;
     position: absolute;
     top:123px;
     left:60%;
-    z-index: 999;
+    z-index: 1;
 }
 .about_container{
     padding: 55px 55px 55px 65px;;
-    background: rgba(237, 89, 0, 0.89)  url("../img/dancer_left.png") no-repeat 150px 20px;
+    background: rgba(237, 89, 0, 0.74)  url("../img/dancer_left.png") no-repeat 150px 20px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -450,7 +451,7 @@ height: 77px;
     
     .accent{
         color: #000000;
-    
+        text-shadow: 0px 0px 3px rgba(255,255,255, 0.5);
     }
 }
 .about_item__subtitle{
@@ -464,6 +465,7 @@ height: 77px;
    
     .accent{
         color: #000000;
+        text-shadow: 0px 0px 3px rgba(255,255,255, 0.5);
     }
 }
 
@@ -494,7 +496,7 @@ height: 77px;
     }
     .rally_container{
         padding: 97px 0 20px;
-         background: rgba(237, 89, 0, 0.89);
+         background: rgba(237, 89, 0, 0.74);
          position: relative;
         z-index: 1;
     }
@@ -522,6 +524,7 @@ height: 77px;
     font-size: 18px;
     font-weight: 600;
     color: #000000;
+    text-shadow: 0px 0px 2px rgba(255,255,255, 0.5);
 }
 .expirience_item__subtitle{
     color: #ffffff;
@@ -619,7 +622,7 @@ height: 77px;
 }
 .how_container{
      padding: 102px 0 33px;
-         background: rgba(237, 89, 0, 0.89);
+         background: rgba(237, 89, 0, 0.74);
          position: relative;
     z-index: 1;
 }
@@ -690,7 +693,7 @@ height: 77px;
 //TIMES BEGIN
 .section_times{
     position: relative;
-    background: rgba(237, 89, 0, 0.89);
+    background: rgba(237, 89, 0, 0.74);
     padding: 95px 0 20px;
     z-index: 2;
     .times_bg__img{
@@ -777,9 +780,6 @@ height: 77px;
     }
 }
 //TIMES END
-.two_section_container{
-    position: relative;
-}
 .two_section__img{
     position: absolute;
     right:-300px;
@@ -797,7 +797,7 @@ height: 77px;
     //overflow-x: hidden;
 }
 .forms_container{
-    background-color: rgba(237, 89, 0, 0.89);
+    background-color: rgba(237, 89, 0, 0.74);
     padding-top: 40px;
     padding-bottom: 34px;
     z-index: 2;
@@ -815,6 +815,7 @@ height: 77px;
     z-index: 2;
     .accent{
         color: #000000;
+        
     }
 }
 .forms_block_container{
@@ -875,6 +876,7 @@ height: 77px;
     font-weight: 700;
     line-height: 30px;
     text-transform: uppercase;
+     text-shadow: 0px 0px 2px rgba(255,255,255, 0.5);
     .accent{
         color: #ffdd00;
         font-size: 20px;
@@ -990,7 +992,13 @@ color: #ffffff;
         text-align: right;
         display: block;
         font-weight: 600;
+         
+        
     }
+    .question_title__text{
+            text-shadow: 0px 0px 2px rgba(255,255,255, 0.5);
+        }
+    
 }
 .question__text{
     padding: 19px 20px 21px;
@@ -1043,7 +1051,7 @@ color: #ffffff;
     }
 }
 .prize_container{
-    background-color: rgba(237, 89, 0, 0.89);
+    background-color: rgba(237, 89, 0, 0.74);
     padding: 54px 0 117px;
     position: relative;
     z-index: 1;
@@ -1069,6 +1077,7 @@ color: #ffffff;
 }
 .abonents__subtitle{
     color: #000000;
+    text-shadow: 0px 0px 2px rgba(255,255,255, 0.5);
 }
 .prize_button_block{
     text-align: center;
@@ -1093,7 +1102,7 @@ color: #ffffff;
 .news_container{
     position: relative;
     z-index: 1;
-    background-color: rgba(237, 89, 0, 0.89);
+    background-color: rgba(237, 89, 0, 0.74);
     padding: 77px 66px 41px;
 }
 .news_block{
@@ -1127,6 +1136,7 @@ color: #ffffff;
 }
 .news__date{
     line-height: 30px;
+    text-shadow: 0px 0px 2px rgba(255,255,255, 0.5);
 }
 .news__text{
     color: #ffffff;
