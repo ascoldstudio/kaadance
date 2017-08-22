@@ -121,7 +121,7 @@ body{
 //BASE END
 //HEADER BEGIN
 .header{
-    background-image: url("../img/fon1.png");
+    background-image: url("img/fon1.png");
 	background-size:cover;
     background-repeat: no-repeat;
     background-position: 51.5% 0;
@@ -180,7 +180,7 @@ height: auto
     display: flex;
     justify-content: space-between;
     position: relative;
-    background-image: url('../img/shutterstock-481805962.png');
+    background-image: url('img/shutterstock-481805962.png');
     background-position: calc(50% - 40px) 0px;
     background-repeat: no-repeat;
     background-size: contain;
@@ -310,8 +310,8 @@ height: auto
 //GALLERY BEGIN
 .section_gallery{
     padding: 106px 0 70px;
-    background: url("../img/girl_left.png") no-repeat 0 40px, 
-         #ed5900 url("../img/girl_right.png") no-repeat 120% 40px;
+    background: url("img/girl_left.png") no-repeat 0 40px, 
+         #ed5900 url("img/girl_right.png") no-repeat 120% 40px;
     background-size: contain;
 }
 .gallery__title{
@@ -337,7 +337,7 @@ height: auto
 //GALLERY END
 //ABOUT BEGIN
 .section_about{
-    background: url("../img/fon3.png") no-repeat center 0;
+    background: url("img/fon3.png") no-repeat center 0;
    background-size: cover;
      position: relative;
     padding: 20px 0;
@@ -351,7 +351,7 @@ height: auto
 }
 .about_container{
     padding: 55px 55px 55px 65px;;
-    background: rgba(237, 89, 0, 0.74)  url("../img/dancer_left.png") no-repeat 150px 20px;
+    background: rgba(237, 89, 0, 0.74)  url("img/dancer_left.png") no-repeat 150px 20px;
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -394,7 +394,7 @@ height: auto
         width: 111px;
         height: 147px;
         content:"";
-        background: url("../img/thread_1.svg") no-repeat 0 0;
+        background: url("img/thread_1.svg") no-repeat 0 0;
         background-size: contain;
         
     }
@@ -406,7 +406,7 @@ height: auto
         width: 500px;
         height: 147px;
         content:"";
-        background: url("../img/snake2.png") no-repeat 0 0;
+        background: url("img/snake2.png") no-repeat 0 0;
          background-size: contain;
         
     }
@@ -419,7 +419,7 @@ height: auto
         width: 2px;
         height: 43px;
         content:"";
-        background: url("../img/thread_3.svg") no-repeat 0 0;
+        background: url("img/thread_3.svg") no-repeat 0 0;
         background-size: contain;
         
     }
@@ -432,7 +432,7 @@ height: auto
         width: 62px;
         height: 118px;
         content:"";
-       background: url("../img/thread_4.svg") no-repeat 0 0;
+       background: url("img/thread_4.svg") no-repeat 0 0;
          background-size: contain;
         
     }
@@ -476,7 +476,7 @@ height: auto
 //ABOUT END
 //RALLY BEGIN
 .section_rally{
-    background: url("../img/fon4.png") no-repeat center 0;
+    background: url("img/fon4.png") no-repeat center 0;
     background-size: cover;
      position: relative;
     padding: 20px 0;
@@ -533,7 +533,7 @@ height: auto
 }
 .expirience_separator{
     margin: 55px auto;
-    background-image: url("../img/separator.png");
+    background-image: url("img/separator.png");
     background-position: center;
     max-width: 730px;
     width: 100%;
@@ -566,7 +566,7 @@ height: auto
 }
 .condition__arrow{
     margin: 12px auto;
-     background: url("../img/download.png") no-repeat 0 0;
+     background: url("img/download.png") no-repeat 0 0;
     width: 17px;
     height: 51px;
 }
@@ -601,7 +601,7 @@ height: auto
 //HOW BEGIN
 .section_how{
     position: relative;
-    background: url("../img/fon5.png") no-repeat center 0;
+    background: url("img/fon5.png") no-repeat center 0;
     background-size: cover;
      position: relative;
     padding: 20px 0;
@@ -794,7 +794,7 @@ height: auto
 }
 //FORMS BEGIN
 .section_forms{
-     background: url("../img/fon7.png") no-repeat center 0;
+     background: url("img/fon7.png") no-repeat center 0;
     background-size: cover;
      padding: 20px 0;
     width: 100%;
@@ -1038,14 +1038,14 @@ color: #ffffff;
 //PRIZE BEGIN
 .section_prize{
     position: relative;
-     background: url("../img/fon9.png") no-repeat center 0;
+     background: url("img/fon9.png") no-repeat center 0;
     background-size: cover;
      padding: 20px 0;
     width: 100%;
 }
 .prize_bg__img{
     position: absolute;
-    z-index: -1;
+    z-index: -1; 
     &.left{
         left: -200px;
         z-index: -1;
@@ -1093,7 +1093,7 @@ color: #ffffff;
 }
 .section_news{
      position: relative;
-     background: url("../img/fon10.png") no-repeat center 0;
+     background: url("img/fon10.png") no-repeat center 0;
     background-size: cover;
      padding: 20px 0;
     width: 100%;
