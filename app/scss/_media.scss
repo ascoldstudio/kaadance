@@ -394,7 +394,7 @@
         flex-direction: column;
         align-items: center;
         padding-top: 10px;
-        background-position-y: 30%;
+        background-position-y: 45%;
         background-position-x: calc(50% - 0px);
     }
     .header_main__left{
@@ -402,7 +402,7 @@
         margin-left: 0;
     }
     .header_main__right{
-        margin-top: 350px;
+        margin-top: 590px;
         text-align: center;
     }
     .header__video{
@@ -473,10 +473,10 @@
      }
     
     .header_main__right {
-	margin-top: 300px;
+	margin-top: 350px;
 }
     .header_main_container {
-	background-position-y:30%;
+	background-position-y:43%;
         padding-left: 0; }
     
     .expirience_item{
@@ -486,7 +486,7 @@
         background: rgba(237,89,0,.89);
     }
     .header__video{
-        width: 350px;
+        width: 400px;
         height: 200px;
     }
     .forms_roles{
@@ -573,7 +573,7 @@
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 390px){
     .header_bottom__title {
-	font-size: 15px;
+	font-size: 14px;
 }
     .header_bottom__text {
 	font-size: 10px;
@@ -590,7 +590,7 @@
 	
 }
     .header_main__right {
-	margin-top: 250px;
+	margin-top: 350px;
 }
      .section_rally .rally_bg__img.right{
          top:950px;
@@ -600,7 +600,7 @@
 .header_bottom__text {
 	font-size: 9px;
         &.accent{
-            font-size: 16px;
+            font-size: 15px;
         }
     }
      .prize_bg__img{
@@ -609,10 +609,10 @@
         }
     }
     .header_main__right {
-        margin-top: 200px;
+        margin-top: 350px;
     }
     .header_main_container {
-	    background-position-y: 28%;
+	    background-position-y: 40%;
     }
 }
 	/**/

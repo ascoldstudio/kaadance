@@ -154,8 +154,8 @@ body{
     position: relative;
     left: 6px;
     .logo__img{
-        width: 95px;
-height: 77px;
+        width: 120px;
+height: auto
     }
 }
 .header_menu_link{
@@ -948,7 +948,7 @@ color: #ffffff;
         }
         &.right{
             top:0;
-            right:0;
+            right:-200px;
             height: 100%;
             z-index: -2;
         }
