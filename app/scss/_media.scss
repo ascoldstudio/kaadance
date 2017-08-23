@@ -62,7 +62,7 @@
         }
     }
     .section_gallery{
-    background: #ed5900 url("../img/girl_left.png") no-repeat 0 40px, 
+    background: #ed5900 url("img/girl_left.png") no-repeat 0 40px, 
          
 }
    
@@ -90,7 +90,7 @@
                 z-index: -1;
                width: 400px;
                 height: 147px;
-                background-image: url("../img/snake2.png");
+                background-image: url("img/snake2.png");
 
             }
          &:nth-child(2) .about_item__title::after{
@@ -100,7 +100,7 @@
                 z-index: -1;
                width: 400px;
             height: 147px;
-            background-image:  url("../img/snake2.png");
+            background-image:  url("img/snake2.png");
 
         }
         &:nth-child(3) .about_item__title::after{
@@ -110,7 +110,7 @@
             z-index: -1;
             width: 400px;
             height: 147px;
-            background-image:  url("../img/snake2.png");
+            background-image:  url("img/snake2.png");
 
         }
          &:nth-child(4) .about_item__title::after{
@@ -120,7 +120,7 @@
                 z-index: -1;
                width: 400px;
             height: 147px;
-            background-image:  url("../img/snake2.png");
+            background-image:  url("img/snake2.png");
             
         }
         
