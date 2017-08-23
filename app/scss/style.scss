@@ -672,6 +672,7 @@ height: auto
     margin-bottom: 14px;
     padding: 0 24px;
     box-sizing: border-box;
+    text-shadow: 0 0 2px rgba(255,255,255, 0.5);
 }
 .how-it-did__button{
     display: block;
@@ -847,6 +848,7 @@ height: auto
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e8e8e8', endColorstr='#e8e8e8',GradientType=1 );
     width: 100%;
     height: 2px;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
     
 }
 .roles__icon{
